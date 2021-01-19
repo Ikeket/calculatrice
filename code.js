@@ -10,6 +10,8 @@ do {
 	do {
 		var premierNombre = prompt("Choisissez un premier chiffre :");
 		var deuxiemeNombre = prompt("Choisissez un deuxième chiffre :");
+		premierNombre = Number(premierNombre);
+		deuxiemeNombre = Number(deuxiemeNombre);
 		console.log(premierNombre);
 	} while (isNaN(premierNombre) || isNaN(deuxiemeNombre));
 
